@@ -1,0 +1,28 @@
+﻿<html>
+    <head>
+    <link rel="stylesheet" href="format.css">
+        <title>
+            Input Form
+        </title>
+        
+        <script type="text/javascript" src="index.js"></script>
+    <style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+    </head>
+    <body> 
+         <h1 class="auto-style1">Contact us for queries</h1>
+ 
+        <form action="result.html" method="POST">
+            <div class="auto-style1">
+            <input type="text" id="name" name="name" placeholder="Enter name.." required /><br>
+            <input type="text" id="surname" name="surname" placeholder="Enter surname.." required ><br>
+			<input type="text" id="email" name="email"placeholder="Enter Email.." required ><br>
+			<input type="text" id="query" name="query" placeholder="Enter Query.." required ><br>
+			<br>&nbsp;<input type="submit" onclick="handleSubmit()" />
+		 </div>
+		 </form>
+    </body>
+</html>
